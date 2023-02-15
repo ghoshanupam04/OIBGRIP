@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gen-text{
+    background-color: rgb(186, 235, 255);
+    text-align: center;
+    padding: 20px;
+}
+.gen-text .heading .text1{
+    color: #ff9933;
+    font-size: 44px;
+}
+.gen-text .heading .text1 span{
+    color: green;
+    font-weight: 50px;
+}
+.scientist{
+    background: rgb(186, 235, 255);
+    height: 70vh;
+    width: 100%;
+    position: relative;
+
+}
+.contain{
+    width:850px;
+    height:450px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.slide-row{
+    display: flex;
+    width: 392vh;
+}
+.slide-col{
+    width: 1116px;
+    height: 361px;
+    position: relative;
+}
+.user-img{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+}
+.user-img img{
+    height: 100%;
+    border-radius: 0px;
+}
+.user-text{
+    background-color: #ff9933;
+    height: 245px;
+    width: 449px;
+    position: absolute;
+    top: 50%;
+    left: -125px;
+    transform: translateY(-50%);
+    border-radius: 3px;
+    padding: 34px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+.ut-head{
+    color: green;
+}
+.bio{
+    list-style: none;
+}
+.quotes{
+    background-color: rgb(186, 235, 255);
+    padding: 30px;
+}
+.quote-head{
+    padding:20px 100px 20px 100px;
+    text-align: justify;
+    color: green;
+}
+.quotes .qp{
+    padding-right: 100px;
+    text-align: right;
+    font-weight:500;
+    font-size: 25px;
+    color: #ff8a15;
+}
+.hc-head{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 50px;
+    color: green;
+}
+.legabio{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:0.1rem;
+}
+.awards{
+    background-color: #ff9933;
+    padding:20px;
+    margin: 10px;   
+}
+.biblio{
+    padding: 20px;
+    background-color:rgb(186, 235, 255);
+    text-align: center;
+}
+.biblio .a{
+    color: yellow;
+}
+.lega{
+    padding: 20px;
+    background-color:rgb(186, 235, 255);
+}
+.legacy{
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.awards-con{
+    padding:5px;
+    text-align:center;
+    align-content: center;
+    color: green;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.back{
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(255, 208, 216);
+    text-align: center;
+}
+
+#mainlink{
+    color: green;
+    text-decoration: none;
+}
+
+#mainlink:hover{
+    color: #ff8000;
+    cursor: pointer;
+    text-decoration: underline;
+}
