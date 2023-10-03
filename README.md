@@ -1,2 +1,2 @@
 # OIBGRIP
-WEB-Tasks
+Internship WEB-Tasks
